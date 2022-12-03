@@ -24,3 +24,7 @@ console.log(todosLosDivs);
 let contenidoEnTexto = todosLosDivs[2];
 contenidoEnTexto.innerHTML = "soy otro texto para probar";
 console.log(contenidoEnTexto);
+
+
+
+//
