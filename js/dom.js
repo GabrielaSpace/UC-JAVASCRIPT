@@ -25,6 +25,16 @@ let contenidoEnTexto = todosLosDivs[2];
 contenidoEnTexto.innerHTML = "soy otro texto para probar";
 console.log(contenidoEnTexto);
 
+let contenidoEnTexto1 = todosLosDivs[1];
+contenidoEnTexto1.innerHTML = 'funcionó';
+contenidoEnTexto1.style.padding = '30px';
+contenidoEnTexto1.style.background = 'green';
+contenidoEnTexto1.style.color = 'white';
+console.log(contenidoEnTexto1);
+
+let titulo = document.getElementsByTagName('h1');
+titulo.innerHTML ='super aprendido';
+console.log(titulo);
+//ahora todos los divs
 
 
-//
